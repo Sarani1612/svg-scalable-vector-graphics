@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Scalable Vector Graphics</h1>
+
+    <svg>
+        
+        <!-- this creates a rectable with a width of 100px and a height of 50 px.
+        it starts at the top left corner because both the x and y axes are set to 0-->
+        <!--
+        <rect x="0" y="0" width="100" height="50" fill="blue" />
+        
+        <circle cx="100" cy="25" r="20" />
+        -->
+        
+        <!--
+        <polygon points="0,0 100,0 200,100 250,50 300,300 0,300"/>
+        -->
+       
+       <!-- 
+        This will show a row of 8 rectangles (bars)
+        
+        <rect x="0" y="0" width="19" height="150" />
+        <rect x="20" y="0" width="19" height="150" />
+        <rect x="40" y="0" width="19" height="150" />
+        <rect x="60" y="0" width="19" height="150" />
+        <rect x="80" y="0" width="19" height="150" />
+        <rect x="100" y="0" width="19" height="150" />
+        <rect x="120" y="0" width="19" height="150" />
+        <rect x="140" y="0" width="19" height="150" />
+        -->
+        
+        <!-- This will show an upside down bar chart. This could be fixed by changing the y coordinates so that y+height = 160 (the tallest rectangle)
+        <rect x="0" y="0" width="19" height="150" />
+        <rect x="20" y="0" width="19" height="130" />
+        <rect x="40" y="0" width="19" height="100" />
+        <rect x="60" y="0" width="19" height="140" />
+        <rect x="80" y="0" width="19" height="50" />
+        <rect x="100" y="0" width="19" height="120" />
+        <rect x="120" y="0" width="19" height="110" />
+        <rect x="140" y="0" width="19" height="160" />
+        -->
+        
+        <!-- the bar chart from above with 'fixed' y coordinates so that it is the right side up -->
+        <rect x="0" y="0" width="19" height="150" />
+        <rect x="20" y="30" width="19" height="130" />
+        <rect x="40" y="60" width="19" height="100" />
+        <rect x="60" y="20" width="19" height="140" />
+        <rect x="80" y="110" width="19" height="50" />
+        <rect x="100" y="40" width="19" height="120" />
+        <rect x="120" y="50" width="19" height="110" />
+        <rect x="140" y="0" width="19" height="160" />
+        
+    </svg>
+
+</body>
+
+</html>
